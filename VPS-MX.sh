@@ -8,7 +8,7 @@ SCPusr="${SCPdir}/ger-user"
 SCPfrm="/etc/ger-frm"
 SCPfrm3="/etc/adm-lite"
 SCPinst="/etc/ger-inst"
-kalix1="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1ZQUy1NWC9WUFMtTVgtOC4wL21hc3Rlci9TQ1JJUFQ="
+kalix1="="
 PUTO='base64 -d'
 echo "nameserver 8.8.8.8" > /etc/resolv.conf
 echo "nameserver 8.8.4.4" >> /etc/resolv.conf
@@ -202,7 +202,7 @@ msg -bar2
 echo -e "	\e[1;44mCAMBIAR  RESELLER\e[0m"
 msg -bar
 echo ""
-read -p "dijite su nuevo reseller |creditos: " vps
+read -p "Dijite su nuevo reseller |creditos: " vps
 echo "$vps" > /etc/newadm/message.txt
 msg -bar
 echo "	NUEVO CREDITO AGREDADO CON EXITO"
@@ -238,7 +238,7 @@ echo 'echo -e "	\e[44;1;37mFecha del Servidor\e[0m : \e[1;33m$DATE\e[0m"' >> .ba
 echo 'echo -e "	\e[43;1;33mHora del Servidor\e[0m : \e[1;33m$TIME\e[0m"' >> .bashrc
 echo 'echo -e ""' >> .bashrc
 echo -e "         COMANDO PRINCIPAL PARA ENTRAR AL PANEL "
-echo -e "\033[1;41m                     sudo menu                        \033[0;37m" && msg -bar2
+echo -e "\033[1;41m                     sudo menu, vps-mx                      \033[0;37m" && msg -bar2
 sleep 5
 }
 ofus () {
@@ -365,6 +365,7 @@ if [[ -e $HOME/lista-arq ]] && [[ ! $(cat $HOME/lista-arq|grep "KEY INVALIDA!") 
    mv -f /etc/bash.bashrc.2 /etc/bash.bashrc
    echo "${SCPdir}/menu" > /usr/bin/menu && chmod +x /usr/bin/menu
    echo "${SCPdir}/menu" > /usr/bin/adm && chmod +x /usr/bin/adm
+   echo "${SCPdir}/menu" > /usr/bin/vps-mx && chmod +x /usr/bin/vps-mx
    echo "$Key" > ${SCPdir}/key.txt
    [[ -d ${SCPinstal} ]] && rm -rf ${SCPinstal}   
    [[ ${#id} -gt 2 ]] && echo "es" > ${SCPidioma} || echo "${id}" > ${SCPidioma}
