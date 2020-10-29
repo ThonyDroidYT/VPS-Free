@@ -225,7 +225,7 @@ echo 'echo -e "\033[91m        \ V / |  __/ ___) |_____| |  | |/  \  " '>> .bash
 echo 'echo -e "\033[91m         \_/  |_|   |____/      |_|  |_/_/\_\ " '>> .bashrc
 echo 'echo "" '>> .bashrc
 echo 'echo -e "	\e[1;43mUN MOD GRATUITO -FINAL\e[0m"'>> .bashrc
-echo 'echo -e "	\e[1;43mBy: @Thony_DroidYT \e[0m"'>> .bashrc
+echo 'echo -e "	\e[1;43mBY: @THONY_DROIDYT \e[0m"'>> .bashrc
 echo 'mess1="$(less /etc/newadm/message.txt)" ' >> .bashrc
 echo 'echo "" '>> .bashrc
 echo 'ver="$(cat /etc/versin_script_new)" '>> .bashrc
@@ -338,8 +338,8 @@ REQUEST=$(echo $kalix1|$PUTO)
 echo "$IP" > /usr/bin/vendor_code
 cd $HOME
 msg -ne "Key: "
-wget -O $HOME/lista-arq ${REQUEST}/lista-arq > /dev/null 2>&1 && echo -e "\033[1;32m Verificado" || {
-   echo -e "\033[1;32m Verificada"
+wget -O $HOME/lista-arq ${REQUEST}/lista-arq > /dev/null 2>&1 && echo -e "\033[1;32m Verified" || {
+   echo -e "\033[1;32m Verified"
    invalid_key
    exit
    }
