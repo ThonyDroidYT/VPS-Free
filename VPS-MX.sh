@@ -232,9 +232,9 @@ echo 'ver="$(cat /etc/versin_script_new)" '>> .bashrc
 echo 'echo -e "\033[92m        RESELLER : $mess1 "'>> .bashrc
 echo 'echo -e "	\e[43mVERSION:\e[0m\e[1;32m $ver" '>> .bashrc
 echo 'echo "" '>> .bashrc                                           
-echo 'echo -e "\033[97m   PARA MOSTAR PANEL BASH ESCRIBA:  sudo menu "'>> .bashrc
+echo 'echo -e "\033[97m   PARA MOSTAR PANEL BASH ESCRIBA:  sudo menu, vps-mx "'>> .bashrc
 echo 'echo ""'>> .bashrc
-echo 'echo -e "	\e[44;1;37mFecha del Servidor\e[0m : \e[1;33m$DATE\e[0m"' >> .bashrc
+echo 'echo -e "	\e[44;1;33mFecha del Servidor\e[0m : \e[1;33m$DATE\e[0m"' >> .bashrc
 echo 'echo -e "	\e[43;1;33mHora del Servidor\e[0m : \e[1;33m$TIME\e[0m"' >> .bashrc
 echo 'echo -e ""' >> .bashrc
 echo -e "         COMANDO PRINCIPAL PARA ENTRAR AL PANEL "
