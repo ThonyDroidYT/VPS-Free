@@ -224,7 +224,7 @@ echo 'echo -e "\033[91m       \ \ / /| |_) \___ \ _____| |\/| |\  /  " '>> .bash
 echo 'echo -e "\033[91m        \ V / |  __/ ___) |_____| |  | |/  \  " '>> .bashrc
 echo 'echo -e "\033[91m         \_/  |_|   |____/      |_|  |_/_/\_\ " '>> .bashrc
 echo 'echo "" '>> .bashrc
-echo 'echo -e "	\e[1;43mUN MOD GRATUITO -FINAL\e[0m"'>> .bashrc
+echo 'echo -e "	\e[1;43mMOD GRATUITO -FINAL\e[0m"'>> .bashrc
 echo 'echo -e "	\e[1;43mBY: @THONY_DROIDYT \e[0m"'>> .bashrc
 echo 'mess1="$(less /etc/newadm/message.txt)" ' >> .bashrc
 echo 'echo "" '>> .bashrc
