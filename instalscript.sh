@@ -105,4 +105,4 @@ msg -bar
 sleep 3
 ## Restore working directory
 cd $WORKING_DIR_ORIGINAL
-vpsmxup
+#vpsmxup
