@@ -1,6 +1,7 @@
 #!/bin/bash
 #sudo apt-get update  &>/dev/null
 #sudo apt-get wget -y &>/dev/null
+rm -rf instalscript.sh
 killall apt apt-get
 dpkg --configure -a
 apt-get install software-properties-common -y
