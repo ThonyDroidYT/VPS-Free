@@ -324,8 +324,8 @@ chmod +x /bin/Desbloqueo.sh
 wget -O /bin/monitor.sh https://raw.githubusercontent.com/VPS-MX/VPS-MX-8.0/master/ArchivosUtilitarios/Monitor-Service/monitor.sh &> /dev/null
 chmod +x /bin/monitor.sh
 wget -O /var/www/html/estilos.css https://raw.githubusercontent.com/VPS-MX/VPS-MX-8.0/master/ArchivosUtilitarios/Monitor-Service/estilos.css &> /dev/null
-msg -bar2
-echo -e "	\e[1;43mUN MOD GRATUITO > FINAL\e[0m"
+#msg -bar2
+#echo -e "	\e[1;43mUN MOD GRATUITO > FINAL\e[0m"
 msg -bar2
 msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @Kalix1 ❌\033[1;33m ]"
 msg -ama "  \033[1;96m      🔰Usar Ubuntu 18 a 64 De Preferencia🔰          "
