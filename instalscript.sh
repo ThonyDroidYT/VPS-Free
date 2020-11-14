@@ -28,7 +28,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 }
 clear
  msg -bar2
- #msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @Kalix1 ❌\033[1;33m ]"
+#msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @Kalix1 ❌\033[1;33m ]"
  msg -ama "     [ VPS-MX-SCRIPT FREE\033[1;97m ❌ MOD By @Thony_DroidYT ❌\033[1;33m ]"
  echo -e  "\033[1;97m               EJECUTANDO ACTULIZADOR  \033[1;34m "
  msg -bar2
