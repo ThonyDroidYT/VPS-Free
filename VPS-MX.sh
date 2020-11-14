@@ -377,5 +377,5 @@ if [[ -e $HOME/lista-arq ]] && [[ ! $(cat $HOME/lista-arq|grep "KEY INVALIDA!") 
    msg -bar2
 [[ ${byinst} = "true" ]] && install_fim
 else
-invalid_key
+#invalid_key
 fi
